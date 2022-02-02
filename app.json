@@ -1,0 +1,14 @@
+{
+    "name": "Santhu string bot",
+    "description": "Hi am your string maker..,\ud83d\udc93",
+    "keywords": [
+        "Stringbot"
+    ],
+    "repository": "https://github.com/santhu113/santhustring.git",
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
