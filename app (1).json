@@ -1,0 +1,41 @@
+{
+    "name": "Santhu string bot",
+    "description": "Hi iam santhu string bot",
+    "keywords": [
+        "Stringbot",
+        "stringsessiongenratebot",
+        "sessionmaker"
+    ],
+    "repository": "https://github.com/santhu113/santhustring.git",
+    "success_url": "https://github.com/santhu113/santhustring.git",
+    "env": {
+        "API_ID": {
+            "description": "get it from http",
+            "required": "True",
+            "value": "//my.telegram.org, true"
+        },
+        "API_HASH": {
+            "description": "GET IT FROM http",
+            "required": "True",
+            "value": "//my.telegram.org, true"
+        },
+        "BOT_TOKEN": {
+            "description": "get from @botfather, true",
+            "required": "True"
+        },
+        "ENVIRONMENT": {
+            "description": "don't change ANYTHING, ANYTHING, true",
+            "required": "True"
+        },
+        "MUST_JOIN": {
+            "description": ",,false",
+            "required": "True"
+        }
+    },
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
