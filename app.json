@@ -1,5 +1,5 @@
 {
-  "name": "String Session Generator",
+  "name": "Santhu string bot",
   "description": "Telegram bot to generate pyrogram string session",
   "logo": "https://telegra.ph/file/7ec22c82f580a334dd13e.jpg",
   "keywords": [
@@ -25,7 +25,7 @@
          "plan": "heroku-postgresql"
       }
    ],
-  "repository": "https://github.com/Skyzu/skystring",
+  "repository": "https://github.com/santhu113/santhustring.git",
   "env": {
     "ENVIRONMENT": {
       "description": "Don't change ANYTHING.",
