@@ -1,5 +1,5 @@
-from StringSessionBot.database.users_sql import Users, num_users
-from StringSessionBot.database import SESSION
+from Santhustringbot.database.users_sql import Users, num_users
+from Santhustringbot.database import SESSION
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
